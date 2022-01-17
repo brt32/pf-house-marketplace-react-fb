@@ -75,13 +75,13 @@ button {
 .removeIcon {
   cursor: pointer;
   position: absolute;
-  top: -3%;
+  top: 20%;
   right: 2%;
 }
 .editIcon {
   cursor: pointer;
   position: absolute;
-  top: -3.4%;
+  top: 90px;
   right: 20px;
 }
 
@@ -439,12 +439,14 @@ button {
   font-size: 0.7rem;
   opacity: 0.8;
   margin-bottom: 0;
+  margin-left: 20px;
 }
 
 .categoryListingName {
   font-weight: 600;
   font-size: 1.25rem;
-  margin: 0;
+  margin: 5px;
+  margin-left: 20px;
 }
 
 .categoryListingPrice {
@@ -453,14 +455,16 @@ button {
   font-size: 1.1rem;
   color: #00cc66;
   margin-bottom: 0;
+  margin-left: 20px;
   display: flex;
   align-items: center;
 }
 
 .categoryListingInfoDiv {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 275px;
+  margin-left: 10px;
 }
 
 .categoryListingInfoText {
@@ -818,4 +822,11 @@ button {
   margin-left: 1rem;
   font-size: 0.8rem;
   opacity: 0.75;
+}
+
+.pfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
 }
